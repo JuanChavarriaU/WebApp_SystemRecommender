@@ -1,9 +1,7 @@
 import streamlit as st
 import os 
 from spotipy_client import *
-from dotenv import load_dotenv
 
-load_dotenv()
 
 REDIRECT_URI = "http://127.0.0.1:5000/"
 SCOPE = 'playlist-modify-private,playlist-modify-public,user-top-read'
