@@ -1,1 +1,5 @@
+# Ignore all .cache-* files
 .cache-*
+
+# Force Git to track specific .cache-username files
+!.cache-*
